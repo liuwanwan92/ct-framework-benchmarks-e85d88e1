@@ -1,0 +1,2466 @@
+{
+  "benchmark_type": "Resource Usage",
+  "benchmark_slug": "resource_usage",
+  "timestamp": "2026-08-07T06:18:09.071938",
+  "date": "2026-08-07",
+  "run_id": "run_20260807_061809",
+  "metadata": {
+    "frameworks_tested": [
+      "react",
+      "angular",
+      "svelte",
+      "preact",
+      "solid",
+      "qwik",
+      "vue",
+      "jquery",
+      "alpine",
+      "lit",
+      "vanjs",
+      "lume-js",
+      "vanilla"
+    ],
+    "frameworks_count": 13,
+    "successful_count": 13,
+    "failed_count": 0,
+    "successful_frameworks": [
+      "react",
+      "angular",
+      "svelte",
+      "preact",
+      "solid",
+      "qwik",
+      "vue",
+      "jquery",
+      "alpine",
+      "lit",
+      "vanjs",
+      "lume-js",
+      "vanilla"
+    ],
+    "failed_frameworks": [],
+    "execution_time_iso": "2026-08-07T06:18:09.071943",
+    "file_path": "benchmark-results/2026-08-07/resource_usage_20260807_061809.json"
+  },
+  "config": {},
+  "results": [
+    {
+      "framework": "react",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:15:18.453829",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "react",
+        "baseline": {
+          "memory_mb": 1091.58984375,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1084.8671875,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.628941297531128,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083311.0874104,
+                "memory_mb": 1069.828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083311.7968738,
+                "memory_mb": 1069.828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083312.506392,
+                "memory_mb": 1069.828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4294860363006592,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083312.7173238,
+                "memory_mb": 1069.828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083313.3267202,
+                "memory_mb": 1069.828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083313.9363444,
+                "memory_mb": 1069.828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.62815523147583,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083314.1461663,
+                "memory_mb": 1069.828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083314.8554752,
+                "memory_mb": 1069.38671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083315.5649405,
+                "memory_mb": 1069.390625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.630535125732422,
+            "memory_delta_mb": 15.60546875,
+            "cpu_peak_percent": 94.69999999999999,
+            "cpu_average_percent": 31.566666666666663,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083315.7746143,
+                "memory_mb": 1069.390625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083316.9860883,
+                "memory_mb": 1084.99609375,
+                "cpu_percent": 94.69999999999999,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083318.195942,
+                "memory_mb": 1084.8671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 15.60546875,
+          "peak_cpu_percent": 94.69999999999999,
+          "average_cpu_percent": 7.891666666666666,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "angular",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:15:32.674377",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "angular",
+        "baseline": {
+          "memory_mb": 1102.2174479166667,
+          "cpu_percent": 1.6666666666666667,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1095.578125,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.6281373500823975,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083325.299958,
+                "memory_mb": 1082.859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083326.0095534,
+                "memory_mb": 1082.859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083326.7190661,
+                "memory_mb": 1082.859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4282567501068115,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083326.9289088,
+                "memory_mb": 1082.859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083327.5384386,
+                "memory_mb": 1082.859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083328.1477797,
+                "memory_mb": 1082.859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.6285738945007324,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083328.3576586,
+                "memory_mb": 1082.859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083329.067188,
+                "memory_mb": 1082.43359375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083329.7767544,
+                "memory_mb": 1082.43359375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.6348907947540283,
+            "memory_delta_mb": 13.26953125,
+            "cpu_peak_percent": 114.4,
+            "cpu_average_percent": 38.13333333333333,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083329.9862988,
+                "memory_mb": 1082.43359375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083331.202646,
+                "memory_mb": 1095.703125,
+                "cpu_percent": 114.4,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083332.4120543,
+                "memory_mb": 1095.578125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 13.26953125,
+          "peak_cpu_percent": 114.4,
+          "average_cpu_percent": 9.533333333333333,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "svelte",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:15:46.889394",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "svelte",
+        "baseline": {
+          "memory_mb": 1073.64453125,
+          "cpu_percent": 3.3333333333333335,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1069.8671875,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.6281523704528809,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083339.5192764,
+                "memory_mb": 1056.94140625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083340.228883,
+                "memory_mb": 1056.94140625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083340.9380407,
+                "memory_mb": 1056.94140625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4279522895812988,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083341.1475806,
+                "memory_mb": 1056.94140625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083341.7568178,
+                "memory_mb": 1056.94140625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083342.3663805,
+                "memory_mb": 1056.94140625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.6288511753082275,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083342.5764062,
+                "memory_mb": 1056.94140625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083343.2859848,
+                "memory_mb": 1056.53515625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083343.9957323,
+                "memory_mb": 1056.53515625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.6337039470672607,
+            "memory_delta_mb": 13.4609375,
+            "cpu_peak_percent": 104.69999999999999,
+            "cpu_average_percent": 34.9,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083344.2052972,
+                "memory_mb": 1056.53515625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083345.419996,
+                "memory_mb": 1069.99609375,
+                "cpu_percent": 104.69999999999999,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083346.629864,
+                "memory_mb": 1069.8671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 13.4609375,
+          "peak_cpu_percent": 104.69999999999999,
+          "average_cpu_percent": 8.725,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "preact",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:16:01.109161",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "preact",
+        "baseline": {
+          "memory_mb": 1104.42578125,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1100.1953125,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.6291038990020752,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083353.7351835,
+                "memory_mb": 1085.546875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083354.4450037,
+                "memory_mb": 1085.546875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083355.154738,
+                "memory_mb": 1085.546875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.429525375366211,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083355.3651025,
+                "memory_mb": 1085.546875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083355.9752276,
+                "memory_mb": 1085.546875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083356.5847034,
+                "memory_mb": 1085.546875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.6283509731292725,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083356.7943678,
+                "memory_mb": 1085.546875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083357.5040092,
+                "memory_mb": 1085.30078125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083358.2134492,
+                "memory_mb": 1085.30078125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.6362576484680176,
+            "memory_delta_mb": 15.0234375,
+            "cpu_peak_percent": 64.69999999999999,
+            "cpu_average_percent": 21.566666666666663,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083358.423998,
+                "memory_mb": 1085.30078125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083359.6407726,
+                "memory_mb": 1100.32421875,
+                "cpu_percent": 64.69999999999999,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083360.8502188,
+                "memory_mb": 1100.1953125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 15.0234375,
+          "peak_cpu_percent": 64.69999999999999,
+          "average_cpu_percent": 5.391666666666666,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "solid",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:16:15.326094",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "solid",
+        "baseline": {
+          "memory_mb": 1094.9557291666667,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1096.5,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 1.5442708333332575,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.6297976970672607,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 5.0,
+            "cpu_average_percent": 1.6666666666666667,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083367.9543767,
+                "memory_mb": 1075.27734375,
+                "cpu_percent": 5.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083368.664102,
+                "memory_mb": 1075.27734375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083369.374836,
+                "memory_mb": 1075.27734375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4287993907928467,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083369.5849829,
+                "memory_mb": 1075.27734375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083370.1942523,
+                "memory_mb": 1075.27734375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083370.8040206,
+                "memory_mb": 1075.27734375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.628103256225586,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083371.0137112,
+                "memory_mb": 1075.27734375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083371.723113,
+                "memory_mb": 1074.69140625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083372.4325397,
+                "memory_mb": 1074.69140625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.633366346359253,
+            "memory_delta_mb": 21.81640625,
+            "cpu_peak_percent": 144.5,
+            "cpu_average_percent": 48.166666666666664,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083372.6421614,
+                "memory_mb": 1074.69140625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083373.8568914,
+                "memory_mb": 1096.5078125,
+                "cpu_percent": 144.5,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083375.066343,
+                "memory_mb": 1096.5,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 21.81640625,
+          "peak_cpu_percent": 144.5,
+          "average_cpu_percent": 12.458333333333332,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 1.5442708333332575,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 0,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "qwik",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:16:29.539791",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "qwik",
+        "baseline": {
+          "memory_mb": 1105.1341145833333,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1097.5625,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.6296463012695312,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083382.1729646,
+                "memory_mb": 1084.73828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083382.882417,
+                "memory_mb": 1084.73828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083383.5930762,
+                "memory_mb": 1084.73828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4282450675964355,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083383.8028607,
+                "memory_mb": 1084.73828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083384.4123666,
+                "memory_mb": 1084.73828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083385.0217636,
+                "memory_mb": 1084.73828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.6278281211853027,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083385.2314253,
+                "memory_mb": 1084.73828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083385.940692,
+                "memory_mb": 1084.15625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083386.6499972,
+                "memory_mb": 1084.15625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.6302032470703125,
+            "memory_delta_mb": 13.40625,
+            "cpu_peak_percent": 119.5,
+            "cpu_average_percent": 39.833333333333336,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083386.859819,
+                "memory_mb": 1084.15625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083388.07103,
+                "memory_mb": 1097.5625,
+                "cpu_percent": 119.5,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083389.2805865,
+                "memory_mb": 1097.5625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 13.40625,
+          "peak_cpu_percent": 119.5,
+          "average_cpu_percent": 9.958333333333334,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "vue",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:16:43.756027",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "vue",
+        "baseline": {
+          "memory_mb": 1091.7057291666667,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1086.08203125,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.628986120223999,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083396.3860006,
+                "memory_mb": 1071.66796875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083397.0955348,
+                "memory_mb": 1071.66796875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083397.8049598,
+                "memory_mb": 1071.66796875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4280648231506348,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083398.0145493,
+                "memory_mb": 1071.66796875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083398.624036,
+                "memory_mb": 1071.66796875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083399.2334533,
+                "memory_mb": 1071.66796875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.628535270690918,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083399.443332,
+                "memory_mb": 1071.66796875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083400.1528106,
+                "memory_mb": 1071.35546875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083400.8624423,
+                "memory_mb": 1071.35546875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.6347179412841797,
+            "memory_delta_mb": 14.85546875,
+            "cpu_peak_percent": 89.6,
+            "cpu_average_percent": 29.866666666666664,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083401.0722516,
+                "memory_mb": 1071.35546875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083402.287799,
+                "memory_mb": 1086.2109375,
+                "cpu_percent": 89.6,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083403.4975958,
+                "memory_mb": 1086.08203125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 14.85546875,
+          "peak_cpu_percent": 89.6,
+          "average_cpu_percent": 7.466666666666666,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "jquery",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:16:57.968944",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "jquery",
+        "baseline": {
+          "memory_mb": 1102.2877604166667,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1090.1953125,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.628946304321289,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 5.0,
+            "cpu_average_percent": 1.6666666666666667,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083410.6024737,
+                "memory_mb": 1075.48828125,
+                "cpu_percent": 5.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083411.312053,
+                "memory_mb": 1075.48828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083412.0213525,
+                "memory_mb": 1075.48828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4283239841461182,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083412.2309146,
+                "memory_mb": 1075.48828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083412.8407376,
+                "memory_mb": 1075.48828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083413.45013,
+                "memory_mb": 1075.48828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.628382921218872,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083413.6596892,
+                "memory_mb": 1075.48828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083414.3690002,
+                "memory_mb": 1075.03515625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083415.0789342,
+                "memory_mb": 1075.03515625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.6293351650238037,
+            "memory_delta_mb": 15.2890625,
+            "cpu_peak_percent": 119.5,
+            "cpu_average_percent": 39.833333333333336,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083415.2886512,
+                "memory_mb": 1075.03515625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083416.4991794,
+                "memory_mb": 1090.32421875,
+                "cpu_percent": 119.5,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083417.7087421,
+                "memory_mb": 1090.1953125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 15.2890625,
+          "peak_cpu_percent": 119.5,
+          "average_cpu_percent": 10.375,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "alpine",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:17:12.181283",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "alpine",
+        "baseline": {
+          "memory_mb": 1125.3671875,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1109.9375,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.6281006336212158,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083424.8146112,
+                "memory_mb": 1095.41015625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083425.5240526,
+                "memory_mb": 1095.41015625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083426.2334874,
+                "memory_mb": 1095.41015625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4279060363769531,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083426.443272,
+                "memory_mb": 1095.41015625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083427.0523837,
+                "memory_mb": 1095.41015625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083427.6618025,
+                "memory_mb": 1095.41015625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.6281907558441162,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083427.8712964,
+                "memory_mb": 1095.41015625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083428.5807602,
+                "memory_mb": 1094.8203125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083429.2903962,
+                "memory_mb": 1094.8203125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.629328727722168,
+            "memory_delta_mb": 15.24609375,
+            "cpu_peak_percent": 104.69999999999999,
+            "cpu_average_percent": 34.9,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083429.5002131,
+                "memory_mb": 1094.8203125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083430.7110186,
+                "memory_mb": 1110.06640625,
+                "cpu_percent": 104.69999999999999,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083431.9203532,
+                "memory_mb": 1109.9375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 15.24609375,
+          "peak_cpu_percent": 104.69999999999999,
+          "average_cpu_percent": 8.725,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "lit",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:17:26.398491",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "lit",
+        "baseline": {
+          "memory_mb": 1097.2356770833333,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1095.88671875,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.6276986598968506,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083439.0268033,
+                "memory_mb": 1082.88671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083439.736022,
+                "memory_mb": 1082.88671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083440.445329,
+                "memory_mb": 1082.88671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4284250736236572,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083440.6549711,
+                "memory_mb": 1082.88671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083441.264824,
+                "memory_mb": 1082.88671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083441.8741894,
+                "memory_mb": 1082.88671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.628138780593872,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083442.0839875,
+                "memory_mb": 1082.88671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083442.7934103,
+                "memory_mb": 1082.2890625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083443.5027807,
+                "memory_mb": 1082.2890625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.636708974838257,
+            "memory_delta_mb": 13.7265625,
+            "cpu_peak_percent": 114.5,
+            "cpu_average_percent": 38.166666666666664,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083443.712476,
+                "memory_mb": 1082.2890625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083444.9299433,
+                "memory_mb": 1096.015625,
+                "cpu_percent": 114.5,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083446.139884,
+                "memory_mb": 1095.88671875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 13.7265625,
+          "peak_cpu_percent": 114.5,
+          "average_cpu_percent": 9.541666666666666,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "vanjs",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:17:40.616338",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "vanjs",
+        "baseline": {
+          "memory_mb": 1087.8268229166667,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1090.25,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 2.4231770833332575,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.6289036273956299,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083453.243486,
+                "memory_mb": 1075.7421875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083453.9536214,
+                "memory_mb": 1075.7421875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083454.6629288,
+                "memory_mb": 1075.7421875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4290647506713867,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083454.8725572,
+                "memory_mb": 1075.7421875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083455.4820113,
+                "memory_mb": 1075.7421875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083456.0923707,
+                "memory_mb": 1075.7421875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.627742052078247,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083456.30178,
+                "memory_mb": 1075.7421875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083457.0111184,
+                "memory_mb": 1075.32421875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083457.720608,
+                "memory_mb": 1075.32421875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.6364266872406006,
+            "memory_delta_mb": 15.0546875,
+            "cpu_peak_percent": 99.5,
+            "cpu_average_percent": 33.166666666666664,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083457.9300985,
+                "memory_mb": 1075.32421875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083459.1479478,
+                "memory_mb": 1090.37890625,
+                "cpu_percent": 99.5,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083460.3574524,
+                "memory_mb": 1090.25,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 15.0546875,
+          "peak_cpu_percent": 99.5,
+          "average_cpu_percent": 8.291666666666666,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 2.4231770833332575,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 0,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "lume-js",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:17:54.832393",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "lume-js",
+        "baseline": {
+          "memory_mb": 1101.0677083333333,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1095.8828125,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.6291723251342773,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083467.467005,
+                "memory_mb": 1081.4296875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083468.1762772,
+                "memory_mb": 1081.4296875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083468.8856764,
+                "memory_mb": 1081.4296875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4284677505493164,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083469.09581,
+                "memory_mb": 1081.4296875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083469.7052727,
+                "memory_mb": 1081.4296875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083470.3145962,
+                "memory_mb": 1081.4296875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.628537893295288,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083470.5244637,
+                "memory_mb": 1081.4296875,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083471.2339132,
+                "memory_mb": 1081.0625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083471.9435494,
+                "memory_mb": 1081.0625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.6300222873687744,
+            "memory_delta_mb": 14.8203125,
+            "cpu_peak_percent": 119.5,
+            "cpu_average_percent": 39.833333333333336,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083472.1535277,
+                "memory_mb": 1081.0625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083473.3643634,
+                "memory_mb": 1095.87890625,
+                "cpu_percent": 119.5,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083474.5739565,
+                "memory_mb": 1095.8828125,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 14.8203125,
+          "peak_cpu_percent": 119.5,
+          "average_cpu_percent": 9.958333333333334,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    },
+    {
+      "framework": "vanilla",
+      "benchmark_type": "Resource Usage",
+      "timestamp": "2026-08-07T06:18:09.055393",
+      "success": true,
+      "error_message": null,
+      "data": {
+        "framework": "vanilla",
+        "baseline": {
+          "memory_mb": 1110.7786458333333,
+          "cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "final_usage": {
+          "total_memory_mb": 1100.05859375,
+          "total_cpu_percent": 0.0,
+          "app_memory_mb": 0.0,
+          "app_cpu_percent": 0.0,
+          "process_count": 12
+        },
+        "interactions": [
+          {
+            "name": "Initial Load",
+            "duration": 1.6327061653137207,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083481.6773965,
+                "memory_mb": 1083.84765625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083482.3909936,
+                "memory_mb": 1083.84765625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083483.1003618,
+                "memory_mb": 1083.84765625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Weather Search",
+            "duration": 1.4277663230895996,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083483.3100154,
+                "memory_mb": 1083.84765625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083483.9194348,
+                "memory_mb": 1083.84765625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083484.528627,
+                "memory_mb": 1083.84765625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "UI Interactions",
+            "duration": 1.6320879459381104,
+            "memory_delta_mb": 0,
+            "cpu_peak_percent": 0.0,
+            "cpu_average_percent": 0.0,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083484.7380574,
+                "memory_mb": 1083.84765625,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083485.4516406,
+                "memory_mb": 1083.80859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083486.161111,
+                "memory_mb": 1083.80859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          },
+          {
+            "name": "Memory Stress",
+            "duration": 2.6356472969055176,
+            "memory_delta_mb": 16.37890625,
+            "cpu_peak_percent": 89.6,
+            "cpu_average_percent": 29.866666666666664,
+            "heap_delta_mb": 0,
+            "sample_count": 3,
+            "samples": [
+              {
+                "timestamp": 1786083486.3706808,
+                "memory_mb": 1083.80859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083487.5877414,
+                "memory_mb": 1100.1875,
+                "cpu_percent": 89.6,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              },
+              {
+                "timestamp": 1786083488.7972112,
+                "memory_mb": 1100.05859375,
+                "cpu_percent": 0.0,
+                "process_count": 12,
+                "browser_memory_mb": 0,
+                "browser_heap_mb": 0,
+                "browser_heap_limit_mb": 0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "total_memory_delta_mb": 16.37890625,
+          "peak_cpu_percent": 89.6,
+          "average_cpu_percent": 7.466666666666666,
+          "total_heap_delta_mb": 0,
+          "final_app_memory_mb": 0.0,
+          "final_app_cpu_percent": 0.0,
+          "memory_efficiency_score": 70,
+          "cpu_efficiency_score": 0
+        }
+      }
+    }
+  ]
+}
